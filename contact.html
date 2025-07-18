@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARI ENTERPRISES</title>
+  <link rel="stylesheet" href="">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!-- *******  Link To Goggle Fonts  *******  -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" > </script>
+            <script type="text/javascript">
+              (function() {
+              emailjs.init("L2g4ZVAO5Mtc0tVBK");
+              })(); 
+			</script>
+  <style>
+    * {
+      margin: 2;
+      padding: 2;
+    }
+
+    body {
+     min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+nav{
+  background-image: url(Water\ color1.jpg);
+  width: 100%;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li{
+  height: 100px;
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav a:hover{
+  background-color: floralwhite;
+}
+nav li:first-child{
+  margin-right: auto;
+}
+.sidebar{
+  position: fixed;
+  top: 0; 
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  font-weight: bold;
+ background-image: url(5.jpg);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li{
+  width: 100%;
+}
+.sidebar a{
+  width: 100%;
+}
+.menu-button{
+  display: none;
+}
+@media(max-width: 770px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
+  }
+}
+
+/* END NAV BAR*/
+body{
+  background-color:#0dd4d47d;
+}
+    .contact-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background:  #009688;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .contact-container h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #1d0101;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin: 10px 0 5px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    input, textarea {
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+  
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 770px) {
+      .contact-container {
+        padding: 15px;
+      }
+
+      .contact-container h2 {
+        font-size: 20px;
+      }
+
+      input, textarea {
+        font-size: 15px;
+      }
+
+      button {
+        font-size: 15px;
+      }
+    }
+
+
+    /*map*/
+    .map{
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .h1{
+        color: #007bff;
+        margin-bottom: 60px;
+
+    }
+    iframe{
+        width: 100%;
+        height: 800px;
+        filter: invert(100%);
+    }
+
+
+
+
+
+
+#features_1{
+    width: 100%;
+    padding: 70px 0;
+}
+.title_text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title_text p{
+    margin: auto;
+    font-size: 20px;
+    color:rgb(125, 8, 16);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title_text p::after{
+    content:'';
+    width:50px;
+    height: 35px;
+    background: linear-gradient(#ef270d,#fbf722);
+    position: absolute;
+    top:-20px;
+    left:0;
+    z-index: -1;
+    transform:rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title_text h1{
+    font-size:50px;
+
+}
+.feature_box {
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+     
+}
+.features{
+    flex-basis: 50%;
+}
+.features_img{
+    flex-basis: 0%;
+    margin:auto;
+    
+}
+.features_img img{
+    width:100%;
+    border-radius:5px;
+   
+}
+.features h1{
+    text-align:left;
+    margin-bottom: 10px;
+     font-weight: bold;
+    color:rgb(207, 67, 78);
+}
+.feature_desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature_icon img{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #ef270d;
+    border:1px solid #009625;
+
+}
+.feature_text p{
+    padding: 0 20px;
+    text-align: initial;
+
+}
+@media screen and (max-width: 770px){
+  .title_text h1{
+    font-size:35px;
+  }
+.features{
+    flex-basis: 100%;
+}
+.features_img{
+    flex-basis: 100%;
+    margin:auto;
+
+}
+  .features_img img{
+    width:100%;
+  }
+}  
+
+
+
+    
+
+/* footer*/
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 90px 90px 90px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 770px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 10px;
+        margin: 4px;
+    }
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+    <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Products</a></li>
+      <li><a href="KIRLOAKAR CATALOGUE24 (1).html">Catlock</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"></a></li>
+      <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+      <li class="hideOnMobile"><a href="service.html">PRODUCTS </a></li>
+      <li class="hideOnMobile"><a href="KIRLOAKAR CATALOGUE24 (1).html">CATLOCK</a></li>
+      <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
+      <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav><br><br>
+
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form>
+        <h3>Name</h3><br>
+            <input type="name" id="use" placeholder="name" name="use" class="form-input" required>
+			<br><h3>Email</h3><br>
+            <input type="email" id="email" placeholder="email" name="email" class="form-input" required>
+			<br><h3>Message</h3><br>
+            <input type="text" id="password" placeholder="Conve your message" name="password" class="form-input" required><br>
+			<button  onclick="sendemail()"type="button" class="submit-button">submit</button>
+    </form>
+  </div><br><br>
+  <div class="map">
+    <h1>My Company Location</h1> <br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.6913380913747!2d77.5645127!3d9.448441599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06e92c4ba554fd%3A0x97f3250f907eca1e!2sHari%20Enterprises!5e0!3m2!1sen!2sin!4v1749805690190!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<br><br>
+  <!--address-->
+ 
+
+
+ <section id="features_1">
+                <div class="title_text">
+                    <p>CONTACT US</p>
+                    <h1>My Company Address</h1>
+                </div>
+                <div class="feature_box">
+                    <div class="features">
+                        <h1>Phone</h1>
+                    <div class="feature_desc">
+                        <div class="feature_icon">
+                          <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        </div>
+                            <div class="feature_text">
+                             <h2><p><a href="#">+919790553165</a></p></h2>
+                            </div>
+                       </div>
+                        <h1>Gmail</h1>
+                    <div class="feature_desc">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                            <div class="feature_text">
+                                 <h2><p><a href="#">harienterprises003@gmail.com</a></p></h2>
+</p>
+                            </div>
+                       </div>
+                        <h1>Location</h1>
+                    <div class="feature_desc">
+                        <div class="feature_icon">
+                           <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                            <div class="feature_text">
+                               <h2><p> 131D, malaiyadipatti,sengundhar complex,nila supermarket near<br>
+            Rajapalayam -626117<br>
+            </a></p></h2>
+                       </div>
+                    </div>
+                    <h1>Owner</h1>
+                    <div class="feature_desc">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                            <div class="feature_text">
+                                 <h2><p>Karthick M</p></h2>
+</p>
+                            </div>
+                       </div>
+                        <div class="features_img">
+                    
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+ <!--footer-->
+             <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.html">HOME</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="KIRLOAKAR CATALOGUE24 (1).html">CATLOCK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2025; Designed by <span class="designer">SARAVANAN M</span></p>
+    </div>
+</footer>
+
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+ <script>function sendemail(){
+
+	var use=document.getElementById("use").value;
+	var email=document.getElementById("email").value;
+	var password=document.getElementById("password").value;
+
+	var templateParams = {
+        use: use,
+        email: email,
+		msg: password
+      };
+
+      emailjs.send('service_ek3jknm', 'template_04s3y7b', templateParams)
+  .then(function(response) {
+     console.log('SUCCESS!', response.status, response.text);
+     window.alert("Sent successfully!");
+     
+  })
+
+}
+</script>
+            
+        </body>
+    </html>
+
